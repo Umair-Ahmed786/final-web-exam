@@ -11,3 +11,185 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* CardSection.css */
+
+.custom-card {
+  position: relative;
+  width: 18rem;
+}
+
+.colorblue{
+  color: blue;
+}
+
+.bgcolor{
+  background-color:rgb(221, 220, 218);
+  border-radius: 20px;
+}
+
+.column2{
+  background-color: brown;
+  border-radius: 20px;
+}
+
+.lady{
+  position: absolute;
+  height: 30.5rem;
+  right: 30rem;
+  top: 2.8rem;
+  /* border-radius: 20px; */
+}
+
+.div {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 20px;
+}
+@media (max-width: 991px) {
+  .div {
+    flex-wrap: wrap;
+  }
+}
+.img {
+  aspect-ratio: 2.82;
+  object-fit: contain;
+  object-position: center;
+  width: 186px;
+  overflow: hidden;
+  margin-top: 19px;
+  max-width: 100%;
+}
+.div-2 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  justify-content: space-between;
+  gap: 6px;
+  padding: 19px 6px 19px 15px;
+}
+@media (max-width: 991px) {
+  .div-2 {
+    max-width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+.div-3 {
+  color: #000;
+  text-align: center;
+  align-self: center;
+  flex-grow: 1;
+  white-space: nowrap;
+  margin: auto 0;
+  font: 600 14px/150% Poppins, -apple-system, Roboto, Helvetica,
+    sans-serif;
+}
+@media (max-width: 991px) {
+  .div-3 {
+    white-space: initial;
+  }
+}
+.div-4 {
+  border-top: 4.137px solid #000;
+  border-right: 4.137px solid #000;
+  border-left: 4.137px solid #000;
+  align-self: center;
+  display: flex;
+  width: 8px;
+  height: 4px;
+  flex-direction: column;
+  margin: auto 0;
+}
+.div-5 {
+  color: #000;
+  text-align: center;
+  align-self: center;
+  margin: auto 0;
+  font: 600 14px/150% Poppins, -apple-system, Roboto, Helvetica,
+    sans-serif;
+}
+.div-6 {
+  border-top: 4.137px solid #000;
+  border-right: 4.137px solid #000;
+  border-left: 4.137px solid #000;
+  align-self: center;
+  display: flex;
+  width: 8px;
+  height: 4px;
+  flex-direction: column;
+  margin: auto 0;
+}
+.div-7 {
+  color: #000;
+  text-align: center;
+  align-self: center;
+  margin: auto 0;
+  font: 600 14px/150% Poppins, -apple-system, Roboto, Helvetica,
+    sans-serif;
+}
+.div-8 {
+  color: #000;
+  text-align: center;
+  align-self: center;
+  margin: auto 0;
+  font: 600 14px/150% Poppins, -apple-system, Roboto, Helvetica,
+    sans-serif;
+}
+.div-9 {
+  color: #000;
+  text-align: center;
+  align-self: center;
+  margin: auto 0;
+  font: 600 14px/150% Poppins, -apple-system, Roboto, Helvetica,
+    sans-serif;
+}
+.div-10 {
+  border-top: 4.137px solid #000;
+  border-right: 4.137px solid #000;
+  border-left: 4.137px solid #000;
+  align-self: center;
+  display: flex;
+  width: 8px;
+  height: 4px;
+  flex-direction: column;
+  margin: auto 0;
+}
+.div-11 {
+  color: #000;
+  text-align: center;
+  white-space: nowrap;
+  border-radius: 84.804px;
+  border: 2.068px solid #000;
+  align-self: stretch;
+  flex-grow: 1;
+  justify-content: center;
+  padding: 13px 20px;
+  font: 600 14px/150% Poppins, -apple-system, Roboto, Helvetica,
+    sans-serif;
+}
+*{
+  background-color: black;
+  color: white;
+}
+.nav-box{
+  display: flex;
+  justify-content: space-evenly;
+}
+a{
+  text-decoration: none;
+}
+
+.foot_bg{
+  background-color: black;
+  color: white;
+}
+@media (max-width: 991px) {
+  .div-11 {
+    white-space: initial;
+  }
+}
+
+
+
